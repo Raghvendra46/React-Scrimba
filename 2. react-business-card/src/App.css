@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  background-color: #23252C;
+}
+
+a {
+  text-decoration: none;
+}
+
+#card {
+  width: 350px;
+  margin: auto;
+  background-color: #1A1B21;
+  overflow: hidden;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px;
+}
+
+#pfp {
+  width: 100%;
+}
+
+#info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.role {
+  color: #F3BF99;
+  margin-bottom: 5px;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.website {
+  color: #F5F5F5;
+}
+
+#btn-div {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 30px 0;
+  gap: 20px;
+}
+
+.btn {
+  font-size: 15px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+#email {
+  background-color: white;
+  color: black;
+}
+
+#linkedin {
+  background-color: #5093E2;
+}
+
+#content {
+  margin: 10px 40px 40px 40px;
+}
+
+p {
+  margin: 0;
+}
+
+#socials-div {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: #161619;
+  padding: 20px 40px;
+}
+
+.social {
+  color: #918E9B;
+  font-size: 40px;
+}
+
+.white {
+  color: white;
+}
+
+.heading {
+  margin: 20px 0 0 0;
+}
+
+.yapping {
+  margin: 7px 0;
+  color: #DCDCDC;
+}

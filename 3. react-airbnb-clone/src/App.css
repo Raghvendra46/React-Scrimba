@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+nav {
+  padding: 20px 30px;
+  box-shadow: grey 0 1px 5px;
+}
+
+#logo {
+  width: 100px;
+}
+
+#hero {
+  margin: 20px 30px;
+}
+
+#collage {
+  display: block;
+  width: 480px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+p {
+  font-weight: 300;
+  margin: 0;
+  font-size: 21px;
+}
+
+#cards-section {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin: 20px 30px;
+  gap: 30px;
+}
+
+#card {
+  width: 220px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+#badge {
+  position: absolute;
+  background-color: white;
+  padding: 5px 10px;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card-text {
+  margin: 5px 0;
+}
+
+#card-img {
+  width: 100%;
+}
+
+#stats {
+  display: flex;
+  align-items: center;
+}
+
+#star {
+  color: red;
+}
+
+.grey {
+  color: grey;
+}
+
+.bold {
+  font-weight: 600;
+}

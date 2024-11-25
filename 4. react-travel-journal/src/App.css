@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+#nav {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  font-size: 20px;
+  padding: 20px 0;
+  gap: 10px;
+}
+
+#earth {
+  font-size: 40px;
+}
+
+#main-sec {
+  margin: 50px 100px;
+}
+
+#main {
+  display: flex;
+  margin: 25px 0;
+}
+
+#place-img {
+  width: 200px;
+}
+
+#info {
+  margin-left: 30px;
+  padding: 40px 0;
+}
+
+#marker {
+  color: #F55A5A;
+}
+
+#map-link {
+  color: #918E9B;
+  margin-left: 20px;
+}
+
+#location {
+  margin: 10px 0 20px 0;
+  font-size: 36px;
+}
+
+#dates {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#description {
+  font-weight: light;
+}
+
+hr {
+  color: #F5F5F5;
+}
